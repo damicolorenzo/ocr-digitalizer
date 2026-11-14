@@ -7,7 +7,7 @@ name = "ocr-digitalizer"
 version = "0.1.0"
 description = "Local-first handwritten notes to LaTeX prototype"
 requires-python = ">=3.11"
-dependencies = ["Pillow>=10", "PyMuPDF>=1.24"]
+dependencies = ["Pillow>=10", "PyMuPDF>=1.24", "jiwer>=3.0,<5",]
 
 [project.optional-dependencies]
 ocr = ["pytesseract>=0.3.10"]

@@ -1,0 +1,9 @@
+
+[
+  {
+    "id": "english_handwriting_001",
+    "image": "samples/test.png",
+    "language": "en",
+    "ground_truth": "But one must also have been\nbeside the dying,"
+  }
+]
