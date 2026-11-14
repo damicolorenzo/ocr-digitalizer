@@ -2,6 +2,8 @@
 import torch
 import numpy as np
 
+from ocr_engine.recognition.base import OCRRecognizer
+
 from PIL import Image
 from transformers import (
     TrOCRProcessor,
@@ -9,7 +11,7 @@ from transformers import (
 )
 
 
-class TrOCRProvider:
+class TrOCRProvider(OCRRecognizer):
     def __init__(
         self,
         model_id="microsoft/trocr-base-handwritten",
